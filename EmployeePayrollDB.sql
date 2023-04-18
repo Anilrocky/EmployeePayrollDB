@@ -57,7 +57,7 @@ Create Table Department
 (
 Id int primary key identity(1,1),
 DeptName varchar(20),
-EmployeeId int foreign key references employee_payroll
+EmployeeId int foreign key references employee_payroll(Id)
 );
 
 --UC12
